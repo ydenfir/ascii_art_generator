@@ -3,8 +3,8 @@ Ce projet Python, "Pokemon ASCII Art Generator", vous permet de créer des œuvr
 
 ## Fonctionnalités principales
 
-- **Conversion Automatique :** Transformez un mot en une représentation artistique en ASCII directement depuis une image associée.
-- **Recherche d'Images :** Le générateur utilise des services en ligne pour récupérer des images correspondant au mot spécifié.
+- **Recherche d'Images :** Le générateur utilise des services en ligne pour récupérer des images correspondant aux mots spécifiés.
+- **Conversion Automatique :** Transformez un mot en une représentation artistique en ASCII directement depuis une image.
 
 ## Comment ça marche :
 
@@ -14,9 +14,11 @@ Ce projet Python, "Pokemon ASCII Art Generator", vous permet de créer des œuvr
 ## Dépendances :
 
 - Python 3.x
-- Bibliothèques Python : PIL, pywhatkit, BeautifulSoup, googlesearch,os , re
+- Bibliothèques Python : PIL, pywhatkit, BeautifulSoup, googlesearch, os, re
 
 
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________
 Notez que ce projet prend pour exemple la génération d'œuvres d'art ASCII de pokémons mais il peut être étendu à d'autres univers en modifiant la liste des noms recherchés dans le fichier get_pokemon_images.py
+N'oubliez pas de renommer les répertoires d'entrée et de sortie du script image_to_ascii.py
+Par défaut, le répertoire dans lequel les images sont téléchargées est celui dans lequel le script get_pokemon_images.py a été lancé
