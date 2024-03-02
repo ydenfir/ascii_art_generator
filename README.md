@@ -1,4 +1,4 @@
-# ascii_art_generator
+# pokemon_ascii_art_generator
 Ce projet Python, "Pokemon ASCII Art Generator", vous permet de créer des œuvres d'art ASCII à partir de noms de pokémons en récupérant des images associées à ces noms et en les transformant en art ASCII.
 
 ## Fonctionnalités principales
